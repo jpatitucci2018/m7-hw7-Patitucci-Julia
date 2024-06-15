@@ -81,6 +81,9 @@
     align-items: center;
     text-align: center;
     /* make this banner stick to the top! */
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
   }
   
   section.hero > .call-to-action {
