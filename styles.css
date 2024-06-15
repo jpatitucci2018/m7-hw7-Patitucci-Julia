@@ -147,16 +147,25 @@
   span.tooltip:hover,
   span.tooltip:focus {
     text-decoration: underline;
+    visibility: visible;
   }
   /* show tooltip on hover/focus */
   span.tooltip:hover > span,
   span.tooltip:focus > span {
-    display: inline;
+    display: inline-block;
+    border-bottom: 1px dotted black;
   }
   
   /* styling for tooltip bubble */
   span.tooltip span {
     display: none;
+    width: 500px;
+    background: gainsboro;
+    color: #FA5456;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size: medium;
   }
   
   /* styling for tooltip bubble arrow */
