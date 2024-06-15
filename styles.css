@@ -114,9 +114,8 @@
     margin-bottom: 48px;;
   }
 
-  p.main::first-letter {
-    color: black
-    font size: xx-large;
+  p::first-letter {
+    font-size: xx-large;
   }
 
   main > article img {
